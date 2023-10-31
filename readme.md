@@ -19,7 +19,7 @@
 
 <p align="left">
   <a href="mailto:joao.vilker@hotmail.com" alt="Email">
-  <img src="https://img.shields.io/badge/-Mail-2B579A?style=for-the-badge&microsoft-outlook&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white/></a>
 
   <a href="https://www.linkedin.com/in/joaovilker/" alt="LinkedIn">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white"/></a>
