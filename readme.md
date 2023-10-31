@@ -26,7 +26,7 @@
   <img src="https://img.shields.io/badge/--_WhatsApp-25d366?style=for-the-badge&labelColor=25d366&logo=whatsapp&logoColor=white"/></a>
 
   <a href="https://github.com/joaovilker" alt="Github">
-  <img src="https://img.shields.io/badge/github-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/--_GitHub-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
 
   <a href="https://www.instagram.com/joao.vilker/" alt="Instagram">
   <img src="https://img.shields.io/badge/--_Instagram-DF0174?style=for-the-badge&labelColor=DF0174&logo=instagram&logoColor=white"/></a>
