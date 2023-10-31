@@ -18,8 +18,8 @@
 </p>
 
 <p align="left">
-  <a href="#" alt="Email">
-  <img src="img.shields.io/badge/-Email-005FF9?style=flat-square&labelColor=005FF9&logo=maildotru&logoColor=white&link=mailto:joao.vilker@hotmail.com"target="_blank" rel="external"/></a>
+  <a href="mailto:joao.vilker@hotmail.com" alt="Email">
+  <img src="img.shields.io/badge/-Email-005FF9?style=flat-square&labelColor=005FF9&logo=maildotru&logoColor=white&link=mail"target="_blank" rel="external"/></a>
 
   <a href="#" alt="LinkedIn">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/joaovilker/"target="_blank" rel="external"/></a>
