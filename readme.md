@@ -33,4 +33,7 @@
 
   <a href="mailto:joao.vilker@hotmail.com" alt="Email">
   <img src="https://img.shields.io/badge/--_Mail-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
+  
+  <a href="mailto:joao.vilker@hotmail.com" alt="Github">
+  <img src="https://img.shields.io/badge/github-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
