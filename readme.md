@@ -34,5 +34,5 @@
   <br>
 
   <a href="mailto:joao.vilker@hotmail.com" alt="Email">
-  <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
+  <img src="https://img.shields.io/badge/-Mail-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
 </p>
