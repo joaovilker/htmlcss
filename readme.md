@@ -25,7 +25,7 @@
   <a href="https://api.whatsapp.com/send?phone=5511977276397&text=Ol%C3%A1,%20vi%20seu%20perfil%20no%20GitHub!%0AVim%20para%20te%20dar%20um%20oi!" alt="WhatsApp">
   <img src="https://img.shields.io/badge/--_WhatsApp-25d366?style=for-the-badge&labelColor=25d366&logo=whatsapp&logoColor=white"/></a>
 
-  <a href="mailto:joao.vilker@hotmail.com" alt="Github">
+  <a href="https://github.com/joaovilker" alt="Github">
   <img src="https://img.shields.io/badge/github-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
 
   <a href="https://www.instagram.com/joao.vilker/" alt="Instagram">
