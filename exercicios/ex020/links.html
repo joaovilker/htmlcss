@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* 
+            #   =   id
+            .   =   class
+            :   =   pseudoclass
+            ::  =   pseudo element
+            >   =   clildren
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: gray;
+        }
+
+        a:hover{
+            color: rgb(0, 0, 58);
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: black;;
+            font-style: ;
+        }
+
+        .especial{
+            background-color: aqua;
+
+        }
+        .especial::after{
+            content: ' ←';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        .especial::before{
+            content: ' 	→';
+        }
+
+        
+    </style>
+</head>
+<body>
+
+</body>
+</html>

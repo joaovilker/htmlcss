@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o zoom do navegador</p>
+    <picture>
+        <source media="(max-width: 724px)" srcset="imagens/cav-gp.jpg" type="image/jpg">
+        <source media="(max-width: 1025px)" srcset="imagens/cav-gm.jpg" type="image/jpg">
+        <img src="imagens/cav-g.jpg" alt="Foto Grande">
+    </picture>
+    
+    <h1>Reproduzindo audio</h1>
+    <p>	Vamos aprender a reproduzir audios em HTML5.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Consideracao.mp3" type="audio/mpeg"> <!--if-->
+        <source src="midia/Consideracao.mp3" type="audio/ogg">  <!--elif-->
+        <source src="midia/Consideracao.mp3" type="audio/wave"> <!--elif-->
+        <p>Infelizmente seu navegado não consegue reproduzir áudio. <a href="midia/Consideracao.mp3" download="Consideracao.mp3" type="audio.mpeg">clique aqui para baixa-lo</a></p><!--else-->
+    </audio>
+
+</body>
+</html>

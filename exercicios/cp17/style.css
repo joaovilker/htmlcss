@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* root é um banco de variáveis pré-definidos */
+:root {
+    --cor1: #8DA9C4;
+    --cor2: #2E598A;
+    --cor3: #134074;
+    --cor4: #13315C;
+    --cor5: #0B2545;
+    --cor6: #001938;
+
+    --font-a: Arial, Verdana, Helvetica, Sans-Serif;
+    --font-b: "Bebas Neue", Sans-Serif;
+
+}
+
+/* (*) remete á configuração geral */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font-b);
+}
+
+
+h1 {
+    color: var(--cor4);
+
+}

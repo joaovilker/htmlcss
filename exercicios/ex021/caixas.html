@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            /* display: inline; ou box-level */
+            background-color: gray;
+            height: 42px;
+            width: 371px;
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgray;
+            border: 10px solid darkgray;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /* ou */
+            padding: 10px 10px 10px 10px;
+            /* se for igual */
+            padding: 10px;
+            /* ou */
+            padding: 10px 20px; 
+            /* para definições alternadas */
+
+            margin-top: 10px ;
+            margin-right: 10px;
+            margin-bottom: 28px;
+            margin-left: 10px;
+            /* ou */
+            margin: 10px 10px 28px 10px;
+            /* ou */
+            margin: 10px auto 10px auto;
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blue;
+            /* ou */
+            outline: 5px dashed blue;
+
+            /* margin: auto;  Para CAIXA = Alinhar no centro*/
+            /* margin-top: 10px ;
+            margin-right: 10px;
+            margin-bottom: 28px;
+            margin-left: 10px; Para CAIXA = Alinhamento manual (Não é possivel centralizar com esse metodo)*/
+        }
+        a {
+            border-width: 15px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        /* 
+        estilos de bordas = solid, double, dotted, dashed, groove
+        */
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Paragrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixar inline-level</a>, vamos ver como tudo isso funciona!</p>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu <a href="https://www.instagram.com/joao.vilker/" target="_blanked" rel="external"> instagram</a></p> 
+    <p>Você também pode acessar meu <a href="https://www.youtube.com/@joaovilker" target="_blanked" rel="external">canal gratuito no youtube</a></p>
+<!--target para abrir uma nova aba e rel para mostrar para o navegador que é um link externo -->
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira pagina do site, se voce quiser pode acessar a minha <a href="pag002.html" rel="next" target="_self">segunda pagina</a></p>
+    <p>Você pode também acessar nossa pagina de <a href="noticias/pag003.html" rel="next" target="_self">notícias</a></p>
+<!--a para abrir um link interno e rel para mostrar para o navegador que é a próxima pag -->
+    <h1>Links para Download</h1>
+        <ul type="circle">
+            <li><a href="livro/livro.pdf" download="livro.pdf" type="application/pdf">Baixar E-Book em PDF</a></li>
+            <li><a href="livro/livro.rar" download="livro.rar" type="application/vnd.comicbook-rar">Baixar E-Book em RAR</a></li>
+        </ul>
+<!-- a para referenciar caminho do arquivo, download para demonstrar o arquivo e type para mostrar qual o tipo de arquivo (Encontrar em https://www.iana.org/assignments/media-types/media-types.xhtml) -->
+
+</body>
+</html>

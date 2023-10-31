@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5 - 2</title>
+</head>
+<body>
+    <h1>Reproduzindo video</h1>
+    <p>Vamos aprender também a reproduzir videos em HTML5</p>
+    <video src="midias/001.mp4" width="560" controls poster="imagens/imagem.jpg" autoplay></video>
+    
+    <video width="560" controls poster="imagens/imagem.jpg" autoplay loop>
+        <source src="midias/001.mp4" type="video/mp4">
+        <source src="midias/001.webm" type="video/webm">
+        <source src="midias/001.ogv" type="video/ogg">
+        <p>seu navegador não tem compatibilidade com reprodução de videos</p>
+        <!--mp4 m4v webm ogv-->
+    </video>
+
+
+    <h1>inserindo video do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk?si=pwqzR1DBIY8L8YTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>inserindo video do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/877734203?h=584a131948&autoplay=1&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
