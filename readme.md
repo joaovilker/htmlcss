@@ -18,8 +18,6 @@
 </p>
 
 <p align="left">
-  <a href="mailto:joao.vilker@hotmail.com" alt="Email">
-  <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
 
   <a href="https://www.linkedin.com/in/joaovilker/" alt="LinkedIn">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white"/></a>
@@ -32,4 +30,9 @@
 
   <a href="https://www.instagram.com/joao.vilker/" alt="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white"/></a>
+
+  <br>
+
+  <a href="mailto:joao.vilker@hotmail.com" alt="Email">
+  <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white"></a>
 </p>
