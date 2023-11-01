@@ -3,19 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 98vh;
-            background-color: rgb(38, 38, 38);
+            /* background-color: rgb(38, 38, 38);
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+
+            /* 
+            SHORTHAND - BACKGROUND
+
+            color > image > position > repeat > [size] > attachment
+
+            [size está na regra como participande de shorthand background, mas ainda não esta aplicada ao conceito.], por isso ainda se torna necessário o uso do background-size.
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
+
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid rgb(0, 0, 74);
@@ -28,7 +40,11 @@
         <h1>
             Teste de imagem de fundo
         </h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo repellendus delectus velit illo temporibus quis voluptatibus eveniet hic nulla dolorum fugit, cumque minus amet odio provident saepe voluptatum fuga quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia amet necessitatibus ut quam, alias atque modi voluptatum accusamus consequatur natus odio voluptatem sapiente soluta, numquam vero ullam consectetur iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquid ducimus fugiat explicabo libero autem labore ut nisi expedita, suscipit corrupti. Velit quibusdam enim, quod amet minima placeat commodi. Earum.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo repellendus delectus velit illo temporibus quis voluptatibus eveniet hic nulla dolorum fugit, cumque minus amet odio provident saepe voluptatum fuga quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia amet necessitatibus ut quam, alias atque modi voluptatum accusamus consequatur natus odio voluptatem sapiente soluta, numquam vero ullam consectetur iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquid ducimus fugiat explicabo libero autem labore ut nisi expedita, suscipit corrupti. Velit quibusdam enim, quod amet minima placeat commodi. Earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nam, ab autem incidunt neque vero harum voluptatum praesentium nulla aperiam sit, soluta hic repudiandae inventore unde explicabo alias est accusantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores ducimus culpa illum eveniet non pariatur eligendi doloribus aspernatur alias consequatur, expedita facere error, accusantium voluptate provident sunt voluptatum ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dignissimos, pariatur est iure officiis possimus totam error ea voluptatum ullam excepturi. </p> 
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo repellendus delectus velit illo temporibus quis voluptatibus eveniet hic nulla dolorum fugit, cumque minus amet odio provident saepe voluptatum fuga quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia amet necessitatibus ut quam, alias atque modi voluptatum accusamus consequatur natus odio voluptatem sapiente soluta, numquam vero ullam consectetur iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquid ducimus fugiat explicabo libero autem labore ut nisi expedita, suscipit corrupti. Velit quibusdam enim, quod amet minima placeat commodi. Earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nam, ab autem incidunt neque vero harum voluptatum praesentium nulla aperiam sit, soluta hic repudiandae inventore unde explicabo alias est accusantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores ducimus culpa illum eveniet non pariatur eligendi doloribus aspernatur alias consequatur, expedita facere error, accusantium voluptate provident sunt voluptatum ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dignissimos, pariatur est iure officiis possimus totam error ea voluptatum ullam excepturi. </p> 
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo repellendus delectus velit illo temporibus quis voluptatibus eveniet hic nulla dolorum fugit, cumque minus amet odio provident saepe voluptatum fuga quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia amet necessitatibus ut quam, alias atque modi voluptatum accusamus consequatur natus odio voluptatem sapiente soluta, numquam vero ullam consectetur iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquid ducimus fugiat explicabo libero autem labore ut nisi expedita, suscipit corrupti. Velit quibusdam enim, quod amet minima placeat commodi. Earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nam, ab autem incidunt neque vero harum voluptatum praesentium nulla aperiam sit, soluta hic repudiandae inventore unde explicabo alias est accusantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores ducimus culpa illum eveniet non pariatur eligendi doloribus aspernatur alias consequatur, expedita facere error, accusantium voluptate provident sunt voluptatum ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dignissimos, pariatur est iure officiis possimus totam error ea voluptatum ullam excepturi. </p> 
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo repellendus delectus velit illo temporibus quis voluptatibus eveniet hic nulla dolorum fugit, cumque minus amet odio provident saepe voluptatum fuga quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia amet necessitatibus ut quam, alias atque modi voluptatum accusamus consequatur natus odio voluptatem sapiente soluta, numquam vero ullam consectetur iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquid ducimus fugiat explicabo libero autem labore ut nisi expedita, suscipit corrupti. Velit quibusdam enim, quod amet minima placeat commodi. Earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nam, ab autem incidunt neque vero harum voluptatum praesentium nulla aperiam sit, soluta hic repudiandae inventore unde explicabo alias est accusantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores ducimus culpa illum eveniet non pariatur eligendi doloribus aspernatur alias consequatur, expedita facere error, accusantium voluptate provident sunt voluptatum ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dignissimos, pariatur est iure officiis possimus totam error ea voluptatum ullam excepturi. </p> 
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo repellendus delectus velit illo temporibus quis voluptatibus eveniet hic nulla dolorum fugit, cumque minus amet odio provident saepe voluptatum fuga quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia amet necessitatibus ut quam, alias atque modi voluptatum accusamus consequatur natus odio voluptatem sapiente soluta, numquam vero ullam consectetur iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aliquid ducimus fugiat explicabo libero autem labore ut nisi expedita, suscipit corrupti. Velit quibusdam enim, quod amet minima placeat commodi. Earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nam, ab autem incidunt neque vero harum voluptatum praesentium nulla aperiam sit, soluta hic repudiandae inventore unde explicabo alias est accusantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores ducimus culpa illum eveniet non pariatur eligendi doloribus aspernatur alias consequatur, expedita facere error, accusantium voluptate provident sunt voluptatum ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dignissimos, pariatur est iure officiis possimus totam error ea voluptatum ullam excepturi. </p> 
     </main>
 </body>
 </html>
