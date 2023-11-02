@@ -14,7 +14,7 @@
     padding: 0px;
     font-size: 1em;
 }
-html > body {
+html body {
     min-height: 100hv;
     background-color: darkgray;
     
