@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+    <style>
+        picture img{
+            border-radius: 25px;
+            max-width: 100%;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experência &#x1F92F</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/paisagem-p.png">
+        <source media="(max-width: 1100px)" srcset="imagens/paisagem-m.png">
+        <img src="imagens/paisagem-g.png" alt="Mulher em cima de uma pedra no alto da montanha">
+    </picture>
+</body>
+</html>
